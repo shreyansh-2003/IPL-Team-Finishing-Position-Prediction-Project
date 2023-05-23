@@ -4,18 +4,42 @@ This is a capstone level classification ML project for predicting IPL team finis
 ---
 # REPOSITORY STRUCTURE
 
-- root
-    - folder1
-        - subfolder1
-            - file1.txt
-            - file2.txt
-        - subfolder2
-            - file3.txt
-    - folder2
-        - file4.txt
-    - folder3
-        - subfolder3
-            - file5.txt
+|____Webscrapping Espncricinfo IPL Stats
+| |____driver_code_webscrape_ipl_dataset.ipynb
+| |____scrape_espn_cricinfo.py
+| |____batting_scrape_sample.png
+| |____.DS_Store
+| |____team_timelines.png
+| |____uncleaned_dataset.csv
+| |____bowling_scrape_sample.png
+| |______pycache__
+| | |____scrape_espn_cricinfo.cpython-310.pyc
+| |____README.md
+| |____Finishing_Position_IPL.csv
+|____Extra Unused IPL Data
+| |____.DS_Store
+| |____IPL Salaries
+| | |____2009_IPL_Salary..csv
+| | |____2010_IPL_Salary..csv
+| | |____2017_IPL_Salary.csv.csv
+| | |____2019_IPL_Salary.csv.csv
+| | |____2016_IPL_Salary.csv
+| | |____2015_IPL_Salary.csv
+| | |____2021_IPL_Salary.csv.csv
+| | |____2008_IPL_Salary.csv
+| | |____2011_IPL_Salary..csv
+| | |____2014_IPL_Salary..csv
+| | |____2020_IPL_Salary.csv.csv
+| | |____2013_IPL_Salary..csv
+| | |____2018_IPL_Salary.csv.csv
+| | |____2012_IPL_Salary..csv
+| | |____2023_IPL_Salary.csv
+|____.DS_Store
+|____Final Model Building
+| |____classification_models_building.ipynb
+|____Data Preprocessing
+| |____data_preprocessing_notebook.ipynb
+| |____pre_processed_dataset.csv
 
 
 ---
