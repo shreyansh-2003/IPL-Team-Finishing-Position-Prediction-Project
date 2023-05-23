@@ -3,9 +3,8 @@ This is a capstone level classification ML project for predicting IPL team finis
 
 ---
 # REPOSITORY STRUCTURE
-$ ./tree-md .
-# Project tree
 
+$ ./tree-md .
 .
  * [tree-md](./tree-md)
  * [dir2](./dir2)
