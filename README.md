@@ -4,7 +4,7 @@ This is a capstone level classification ML project for predicting IPL team finis
 ---
 # REPOSITORY STRUCTURE
 ```bash
-|____**Webscrapping Espncricinfo IPL Stats**
+|____# Webscrapping Espncricinfo IPL Stats
 | |____driver_code_webscrape_ipl_dataset.ipynb
 | |____scrape_espn_cricinfo.py
 | |____batting_scrape_sample.png
