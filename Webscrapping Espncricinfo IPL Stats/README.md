@@ -1,5 +1,3 @@
----
-
 # URL Adjustments being made for Web-Scrapping (scrape_espn_cricinfo.py)
 
 #### Sample ESPN CRICINFO URL
