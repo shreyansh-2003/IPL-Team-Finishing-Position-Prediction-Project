@@ -1,10 +1,30 @@
 # DESCRIPTION
 This is a capstone level classification ML project for predicting IPL team finishing position for an year based on Individual player's performance. The project includes web-scraping ESPN cricinfo website for ipl player statistics, pre-processing the data, and comparing different classification models and hyperparameter tuning them.
 
+__CLASSIFICATION MODELS BEING COMPARED__<br>
+
+__*__ Models to be created include __KNN, Logistic Regression, Decision Tree , Random Forest, SVM, Naive Bayes__
+
+> # Classification Capstone Project Tasks
+- Identifying a domain with a problem which can be addressed using Prediction Techniques.
+- Creating a Dataset for classification with minimum 20 Features and 100 rows. The Data is scrapped from espn cricinfo's website.
+- Ensure the dataset has all possible combination of feature where data preprocessing techniques can be applied ( Data Cleaning, Dimensionality Reduction, Data Transformation, Feature Engineering).
+- Applying all the categories of classification algorithm( KNN, Logistic Regression, Decision Tree, Random Forest, SVM, Naïve Bayes) along with hyper parameter tuning and measure through best suited evaluation metric.
+- Using the ROC curve to determine the best algorithm for your dataset.
+
 ---
 # REPOSITORY STRUCTURE
+
+The repository structure is highlighted below:
+
+1. The __Webscrapping Espncricinfo IPL Stats__ folder, has ```scrape_espn_cricinfo.py```, which consists of all the functions and the ```driver_code_webscrape_ipl_dataset.ipynb``` that has the driver code for creating the player statistics dataset, through webscrapping the ESPN cricinfo website.
+2. The __Extra Unused IPL Data__ folder has the salaries of each of the IPL players listed down from 2009 to 2023, this data was discarded from being used in the model, at early stages.
+3. The __Final Model Building__ folder has the ```classification_models_building.ipynb``` which has all the classification models running on the pre-processed (PCA) dataset.
+4. The __Data Preprocessing__ has the ```classification_models_building.ipynb``` notebook which has an extensive cleaning, pre-processing, feature engineering and dimiensionality handing within it for the Espn IPL dataset.
+
+__Directory Tree Structure__
 ```bash
-|____#Webscrapping Espncricinfo IPL Stats
+|____Webscrapping Espncricinfo IPL Stats
 | |____driver_code_webscrape_ipl_dataset.ipynb
 | |____scrape_espn_cricinfo.py
 | |____batting_scrape_sample.png
@@ -13,7 +33,7 @@ This is a capstone level classification ML project for predicting IPL team finis
 | |____bowling_scrape_sample.png
 | |____Finishing_Position_IPL.csv
 | |____README.md
-|____**Extra Unused IPL Data**
+|____Extra Unused IPL Data
 | |____IPL Salaries
 | | |____2009_IPL_Salary..csv
 | | |____2010_IPL_Salary..csv
@@ -30,24 +50,12 @@ This is a capstone level classification ML project for predicting IPL team finis
 | | |____2018_IPL_Salary.csv.csv
 | | |____2012_IPL_Salary..csv
 | | |____2023_IPL_Salary.csv
-|____**Final Model Building**
+|____Final Model Building
 | |____classification_models_building.ipynb
-|____**Data Preprocessing**
+|____Data Preprocessing
 | |____data_preprocessing_notebook.ipynb
 | |____pre_processed_dataset.csv
 ```
-
----
-# CLASSIFICATION MODELS BEING COMPARED
-
-__*__ Models to be created include __KNN, Logistic Regression, Decision Tree , Random Forest, SVM, Naive Bayes__
-
-> # Classification Capstone Project Tasks
-- Identifying a domain with a problem which can be addressed using Prediction Techniques.
-- Creating a Dataset for classification with minimum 20 Features and 100 rows. The Data is scrapped from espn cricinfo's website.
-- Ensure the dataset has all possible combination of feature where data preprocessing techniques can be applied ( Data Cleaning, Dimensionality Reduction, Data Transformation, Feature Engineering).
-- Applying all the categories of classification algorithm( KNN, Logistic Regression, Decision Tree, Random Forest, SVM, Naïve Bayes) along with hyper parameter tuning and measure through best suited evaluation metric.
-- Using the ROC curve to determine the best algorithm for your dataset.
 
 ---
 
