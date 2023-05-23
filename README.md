@@ -4,20 +4,16 @@ This is a capstone level classification ML project for predicting IPL team finis
 ---
 # REPOSITORY STRUCTURE
 ```bash
-|____Webscrapping Espncricinfo IPL Stats
+|____**Webscrapping Espncricinfo IPL Stats**
 | |____driver_code_webscrape_ipl_dataset.ipynb
 | |____scrape_espn_cricinfo.py
 | |____batting_scrape_sample.png
-| |____.DS_Store
 | |____team_timelines.png
 | |____uncleaned_dataset.csv
 | |____bowling_scrape_sample.png
-| |______pycache__
-| | |____scrape_espn_cricinfo.cpython-310.pyc
-| |____README.md
 | |____Finishing_Position_IPL.csv
-|____Extra Unused IPL Data
-| |____.DS_Store
+| |____README.md
+|____**Extra Unused IPL Data**
 | |____IPL Salaries
 | | |____2009_IPL_Salary..csv
 | | |____2010_IPL_Salary..csv
@@ -34,10 +30,9 @@ This is a capstone level classification ML project for predicting IPL team finis
 | | |____2018_IPL_Salary.csv.csv
 | | |____2012_IPL_Salary..csv
 | | |____2023_IPL_Salary.csv
-|____.DS_Store
-|____Final Model Building
+|____**Final Model Building**
 | |____classification_models_building.ipynb
-|____Data Preprocessing
+|____**Data Preprocessing**
 | |____data_preprocessing_notebook.ipynb
 | |____pre_processed_dataset.csv
 ```
