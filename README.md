@@ -1,11 +1,11 @@
-# DESCRIPTION
+> # DESCRIPTION
 This is a capstone level classification ML project for predicting IPL team finishing position for an year based on Individual player's performance. The project includes web-scraping ESPN cricinfo website for ipl player statistics, pre-processing the data, and comparing different classification models and hyperparameter tuning them.
 
 __CLASSIFICATION MODELS BEING COMPARED__<br>
 
 __*__ Models to be created include __KNN, Logistic Regression, Decision Tree , Random Forest, SVM, Naive Bayes__
 
-> # Classification Capstone Project Tasks
+#### Classification Capstone Project Tasks
 - Identifying a domain with a problem which can be addressed using Prediction Techniques.
 - Creating a Dataset for classification with minimum 20 Features and 100 rows. The Data is scrapped from espn cricinfo's website.
 - Ensure the dataset has all possible combination of feature where data preprocessing techniques can be applied ( Data Cleaning, Dimensionality Reduction, Data Transformation, Feature Engineering).
@@ -13,7 +13,7 @@ __*__ Models to be created include __KNN, Logistic Regression, Decision Tree , R
 - Using the ROC curve to determine the best algorithm for your dataset.
 
 ---
-# REPOSITORY STRUCTURE
+> # REPOSITORY STRUCTURE
 
 The repository structure is highlighted below:
 
@@ -59,7 +59,7 @@ __Directory Tree Structure__
 
 ---
 
-# DATA COLLECTION (WEBSCRAPING) 
+> # DATA COLLECTION (WEBSCRAPING) 
 
 __URL Adjustments being made for Web-Scrapping (scrape_espn_cricinfo.py)__<br>
 
@@ -126,3 +126,29 @@ https://stats.espncricinfo.com/ci/engine/records/bowling/most_wickets_career.htm
 
 ### 2. create_bowling_stats_dataset()
 Function to iterate through all the teams and years, and create the batting dataset by calling the "scrape_bowling_stats_espn()" function created earlier.
+
+
+> # Data Pre processing
+
+Some of the techniques applied within data pre-processing are:
+1. __Handling NA values__: After analyzing the missing values for both batting and bowling columns, I have found that if a player has not batted or bowled in a particular season, all of their corresponding batting and bowling columns have missing values. Hence, it is reasonable to assume that these missing values are not actual values but rather an indication that the player did not bat or bowl in those matches. Therefore, I will fill all of these missing values with 0, which is a common practice in such cases, and an accurate depiction.
+2. __Adding new columns__
+3. __Data Type Casting__
+4. __Ordinal Encoding__
+5. __Label Encoding__
+6. __Robust Scaling__
+7. __PCA (Principal Component Analysis)__
+
+> # Classification Models
+
+__Hypothesis:__ Winning or success rate in a team sport like cricket, football does not entirely depend on the individual performance of the player, rather a team wins or performs well when most of the players of that team plays exceptionally good.<br>
+
+The calssification models used (from sci-kit learn) in tandem for the project include:
+1. __KNN__ (KNeighborsClassifier)
+2. __Random Forest__ (RandomForestClassifier)
+3. __Decision Tree__ (DecisionTreeClassifier)
+4. __Logistic Regression__ (LogisticRegression)
+5. __Naive Bayes__ (GaussianNB)
+6. __SVM__ - Support Vector Machine (SVC)
+
+GridSearch CV is used for extensive hyperparameter tuning.
