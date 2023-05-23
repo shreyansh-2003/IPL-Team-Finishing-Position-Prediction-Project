@@ -4,7 +4,7 @@ This is a capstone level classification ML project for predicting IPL team finis
 ---
 # REPOSITORY STRUCTURE
 
-$ ./tree-md .
+```bash
 .
  * [tree-md](./tree-md)
  * [dir2](./dir2)
@@ -17,7 +17,7 @@ $ ./tree-md .
  * [file_in_root.ext](./file_in_root.ext)
  * [README.md](./README.md)
  * [dir3](./dir3)
-
+```
 
 ---
 # CLASSIFICATION MODELS BEING COMPARED
