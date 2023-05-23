@@ -4,20 +4,19 @@ This is a capstone level classification ML project for predicting IPL team finis
 ---
 # REPOSITORY STRUCTURE
 
-```bash
-.
- * [tree-md](./tree-md)
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
- * [dir3](./dir3)
-```
+- root
+    - folder1
+        - subfolder1
+            - file1.txt
+            - file2.txt
+        - subfolder2
+            - file3.txt
+    - folder2
+        - file4.txt
+    - folder3
+        - subfolder3
+            - file5.txt
+
 
 ---
 # CLASSIFICATION MODELS BEING COMPARED
