@@ -55,6 +55,7 @@ __Directory Tree Structure__
 |____Data Preprocessing
 | |____data_preprocessing_notebook.ipynb
 | |____pre_processed_dataset.csv
+|____requirements.txt
 ```
 
 ---
